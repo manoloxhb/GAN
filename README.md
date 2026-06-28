@@ -1,6 +1,6 @@
 # Vanilla GAN vs DCGAN — MNIST 生成对比
 
-课程作业项目：在 MNIST 手写数字数据集上实现并对比 **Vanilla GAN**（Goodfellow et al., 2014）与 **DCGAN**（Radford et al., 2015），用于课堂演示两种架构在相同训练流程下的生成效果差异。
+在 MNIST 手写数字数据集上实现并对比 **Vanilla GAN**（Goodfellow et al., 2014）与 **DCGAN**（Radford et al., 2015），用于演示两种架构在相同训练流程下的生成效果差异。
 
 ## 项目结构
 
