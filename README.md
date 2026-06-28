@@ -109,13 +109,6 @@ python compare.py --n 64 --latent_dim 100 --out_root ./outputs
 
 训练目标相同：标准 GAN 极小极大博弈，损失为 `BCELoss`，交替更新 D 与 G。
 
-## 演示日 Checklist
-
-- [ ] `outputs/vanilla/generator.pth` 与 `outputs/dcgan/generator.pth` 已存在
-- [ ] `outputs/comparison.png` 已生成
-- [ ] 本地可运行 `python compare.py`（无需现场重新训练）
-- [ ] PPT 中放入：`comparison.png`、两条 `loss_curve.png`、可选 `epoch_*.png` 演变图
-
 ## 常见问题
 
 **Q: 训练时显示 `使用设备: cpu`？**  
@@ -131,7 +124,3 @@ python compare.py --n 64 --latent_dim 100 --out_root ./outputs
 
 - Goodfellow, I., et al. (2014). *Generative Adversarial Nets.* NeurIPS.
 - Radford, A., Metz, L., & Chintala, S. (2015). *Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks.* ICLR.
-
-## 汇报材料
-
-PPT 逐页大纲见 [PRESENTATION_OUTLINE.md](./PRESENTATION_OUTLINE.md)。
